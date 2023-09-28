@@ -1,7 +1,7 @@
-import Navbar from "../../common/users/Navbar_Page";
+import Navbar from "../../common/users/Header/Navbar_Page";
 import Button from "react-bootstrap/Button";
 import "../Login/login.css";
-import Footer from "../../common/users/Footer";
+import Footer from "../../common/users/Footer/Footer";
 import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import axios from "axios";
