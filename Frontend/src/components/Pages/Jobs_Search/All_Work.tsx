@@ -1,5 +1,5 @@
 import Search from "../../Layouts/Search/Search";
-import Navbar_Page from "../../common/users/Header/Navbar_Page";
+import Navbar_Page from "../../Common/users/Header/Navbar_Page";
 import "./all_work.scss";
 import Button from "react-bootstrap/Button";
 import { ToastContainer, toast } from "react-toastify";

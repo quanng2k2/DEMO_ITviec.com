@@ -1,9 +1,9 @@
 import About from "../../Layouts/About/About";
 import Employer from "../../Layouts/Employer/Employer";
-import Navbar from "../../common/users/Header/Navbar_Page";
+import Navbar from "../../Common/users/Header/Navbar_Page";
 import Posts from "../../Layouts/Post/Posts";
 import Search from "../../Layouts/Search/Search";
-import Footer from "../../common/users/Footer/Footer";
+import Footer from "../../Common/users/Footer/Footer";
 import "./home.scss";
 import { useEffect, useState } from "react";
 
