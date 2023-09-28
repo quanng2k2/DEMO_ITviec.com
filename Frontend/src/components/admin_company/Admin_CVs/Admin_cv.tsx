@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Sider_bar from "../../common/admin/SiderBar/Sider_bar";
+import Sider_bar from "../../Common/admin/SiderBar/Sider_bar";
 import Table from "react-bootstrap/Table";
 import axios from "axios";
 import "./admin_cv.scss";

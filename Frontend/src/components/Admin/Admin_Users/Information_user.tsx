@@ -1,4 +1,4 @@
-import Sider_bar from "../../common/admin/SiderBar/Sider_bar";
+import Sider_bar from "../../Common/admin/SiderBar/Sider_bar";
 import Table from "react-bootstrap/Table";
 import { useEffect, useState } from "react";
 import axios from "axios";

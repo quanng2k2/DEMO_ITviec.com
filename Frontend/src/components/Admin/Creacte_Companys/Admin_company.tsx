@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Sider_bar from "../../common/admin/SiderBar/Sider_bar";
+import Sider_bar from "../../Common/admin/SiderBar/Sider_bar";
 import "./admin_company.scss";
 import Button from "react-bootstrap/Button";
 import { ToastContainer, toast } from "react-toastify";

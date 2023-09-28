@@ -1,5 +1,4 @@
-import Nav_Profile from "../../common/users/Header_Profile/Nav_Profile";
-import Navbar_Page from "../../common/users/Header/Navbar_Page";
+import Navbar_Page from "../../Common/users/Header/Navbar_Page";
 import Button from "react-bootstrap/Button";
 import "./home_profile.css";
 import { useRef, useState, useEffect, ChangeEvent, FormEvent } from "react";
@@ -17,6 +16,7 @@ import {
   MDBModalBody,
   MDBModalFooter,
 } from "mdb-react-ui-kit";
+import Nav_Profile from "../../common/users/Header_Profile/Nav_Profile";
 
 interface UserFormData {
   position: string;

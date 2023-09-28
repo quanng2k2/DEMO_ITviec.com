@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Sider_bar from "../../common/admin/SiderBar/Sider_bar";
+import Sider_bar from "../../Common/admin/SiderBar/Sider_bar";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";

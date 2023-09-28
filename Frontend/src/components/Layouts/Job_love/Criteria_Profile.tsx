@@ -1,5 +1,5 @@
+import Navbar_Page from "../../Common/users/Header/Navbar_Page";
 import Nav_Profile from "../../common/users/Header_Profile/Nav_Profile";
-import Navbar_Page from "../../common/users/Header/Navbar_Page";
 
 const Criteria_Profile: React.FC = () => {
   return (
