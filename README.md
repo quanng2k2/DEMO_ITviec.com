@@ -1,1 +1,2 @@
-# DEMO_ITviec.com
+127.0.0.1       localhost
+#	::1             localhost
