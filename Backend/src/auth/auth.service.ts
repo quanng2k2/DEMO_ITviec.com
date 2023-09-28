@@ -44,8 +44,6 @@ export class AuthService {
 
   async login(logindto: any, res: any) {
     try {
-      console.log(logindto);
-
       const user = await this.usersRepo.findOne({
         where: { user_email: logindto.email },
       });
@@ -70,7 +68,6 @@ export class AuthService {
         .status(200)
         .json({ message: 'Đăng nhập thành công', token, user });
     } catch (error) {
-      // Nếu có lỗi xảy ra trong quá trình xử lý, ném một ngoại lệ BadRequestException với thông báo lỗi
       throw new BadRequestException(error.message);
     }
   }
