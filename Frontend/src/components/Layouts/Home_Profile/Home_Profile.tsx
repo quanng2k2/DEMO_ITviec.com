@@ -1,6 +1,6 @@
 import Navbar_Page from "../../Common/users/Header/Navbar_Page";
 import Button from "react-bootstrap/Button";
-import "./home_profile.css";
+import "./home_profile.scss";
 import { useRef, useState, useEffect, ChangeEvent, FormEvent } from "react";
 import axios from "axios";
 import { formatDate, formatDate1 } from "../../../formatDatas/FormatData";

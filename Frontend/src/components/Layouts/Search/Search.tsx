@@ -1,5 +1,5 @@
 import Form from "react-bootstrap/Form";
-import "./search.css";
+import "./search.scss";
 import { NavLink } from "react-router-dom";
 import Tippy from "@tippyjs/react/headless";
 import "tippy.js/dist/tippy.css";
@@ -165,7 +165,7 @@ const Search: React.FC = () => {
           <div className="text-search-suggestions">
             <h6>Gợi ý cho bạn : </h6>
           </div>
-          <NavLink to="/javascript" className="category-link active">
+          <NavLink to="/" className="category-link active">
             <h6 className="title-category">JavaScript</h6>
           </NavLink>
 
@@ -173,7 +173,7 @@ const Search: React.FC = () => {
             <h6 className="title-category">ReactJS</h6>
           </NavLink>
 
-          <NavLink to="/nodejs" className="category-link active">
+          <NavLink to="/" className="category-link active">
             <h6 className="title-category">NodeJS</h6>
           </NavLink>
         </div>

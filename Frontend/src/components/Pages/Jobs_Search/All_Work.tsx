@@ -207,7 +207,6 @@ const All_Work: React.FC = () => {
               className={`container-all-work ${
                 selectedCompanyId === company.companyid ? "selected" : ""
               }`}
-              // className="container-all-work"
               key={company.companyid}
               onClick={() => handleJobClick(company.companyid)}
             >
@@ -249,7 +248,7 @@ const All_Work: React.FC = () => {
         </div>
 
         {/* start detail job */}
-        {selectedCompanyId && dataJobs.length > 0 && (
+        {selectedCompanyId && dataJobs.length > 0 ? (
           <div className="container-item2">
             <div className="img-detail">
               <div className="heard-job">
@@ -318,8 +317,11 @@ const All_Work: React.FC = () => {
               <p>{dataJobs[0].experience_level}</p>
             </div>
           </div>
+        ) : (
+          <div className="no-jobs-message">
+            <p>Không có bài việc làm tuyển dụng.</p>
+          </div>
         )}
-
         {/* stop job  */}
       </div>
       <Modal show={show} onHide={handleClose}>

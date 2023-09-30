@@ -1,12 +1,12 @@
-import Navbar from "../../common/users/Header/Navbar_Page";
 import Button from "react-bootstrap/Button";
-import "../Login/login.css";
-import Footer from "../../common/users/Footer/Footer";
 import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "./login.scss";
+import Navbar_Page from "../../Common/users/Header/Navbar_Page";
+import Footer from "../../Common/users/Footer/Footer";
 
 const Login: React.FC = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -89,7 +89,7 @@ const Login: React.FC = () => {
 
   return (
     <div className="container-wrapper">
-      <Navbar />
+      <Navbar_Page />
       <div className="container-login">
         <div className="item-from">
           <form onSubmit={handleSubmit}>

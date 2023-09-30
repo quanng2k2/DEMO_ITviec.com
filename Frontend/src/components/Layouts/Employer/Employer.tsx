@@ -1,4 +1,4 @@
-import "./employer.css";
+import "./employer.scss";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { NavLink, useParams } from "react-router-dom";

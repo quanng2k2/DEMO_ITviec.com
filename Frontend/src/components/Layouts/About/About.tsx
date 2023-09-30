@@ -1,5 +1,5 @@
 import { Nav } from "react-bootstrap";
-import "./about.css";
+import "./about.scss";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Link, useNavigate } from "react-router-dom";

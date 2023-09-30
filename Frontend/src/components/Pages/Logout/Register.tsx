@@ -1,13 +1,13 @@
 import { useState } from "react";
-import Navbar from "../../common/users/Header/Navbar_Page";
-import "../Logout/register.css";
-import Footer from "../../common/users/Footer/Footer";
+import "./register.scss";
 import { NavLink, useNavigate } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import axios from "axios";
 import validator from "validator";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Navbar_Page from "../../Common/users/Header/Navbar_Page";
+import Footer from "../../Common/users/Footer/Footer";
 
 interface User {
   user_email: string;
@@ -98,7 +98,7 @@ const Register: React.FC = () => {
 
   return (
     <div className="container-wrapper">
-      <Navbar />
+      <Navbar_Page />
       <div className="container-login">
         <div className="item-from">
           <form onSubmit={handleSubmit}>

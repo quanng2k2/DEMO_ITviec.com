@@ -1,4 +1,4 @@
-import "./post.css";
+import "./post.scss";
 
 const Posts: React.FC = () => {
   return (

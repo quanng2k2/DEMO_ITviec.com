@@ -22,7 +22,7 @@ body {
   border-top: 6px solid #ee3b3b;
   border-bottom: none;
   border-left: 6px solid #e93333;
-  background-color: #f1f4e8;
+  background-color: #fff;
   color: black;
   font-weight: 700;
 }
@@ -30,6 +30,7 @@ body {
 .container-tem1 {
   width: 40%;
   height: auto;
+  background-color: #fff;
 }
 
 .container-all-work {
@@ -37,7 +38,7 @@ body {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #fff;
   margin-top: 8px;
   position: relative;
   cursor: pointer;
